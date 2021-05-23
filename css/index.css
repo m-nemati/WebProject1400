@@ -3,18 +3,34 @@ body{
     font-family: iransans;
 }
 
+/* ***** header Styles ***** */
 #header{
     margin-top: 30px;
 }
+
+/* ***** Navigation Styles ***** */
 #navigationbar{
     margin-top: 20px;
 }
+
+/* ***** header Styles ***** */
 #topTitle{
     font-family: negaar;
     color: white;
     padding-top: 20px;
 }
 
+/* ***** Main Section Styles ***** */
+#mainContent{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#courseLink {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* ***** Footer Styles ***** */
 #footer{
     background-color: #212529;
     padding: 20px;
@@ -40,6 +56,8 @@ body{
 #loginLink a:hover{
     color: rgb(15, 224, 26);
 }
+
+/* ***** To top button Styles ***** */
 #toTop{
     position:fixed;
     bottom: 20px;
@@ -53,6 +71,8 @@ body{
     height: 60px;
 
 }
+
+/* ***** Particles js Styles ***** */
 #particles-js{
     height: 200px;
     background: #212529;

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود به سایت</title>
+    <!-- Load CSS files-->
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="container" id="contentPanel">
+        <div class="row">
+            <div class="col-sm-5">
+                <img class="img-fluid mx-auto d-block" src="../images/login.png" alt="آیکن ورود">
+            </div>
+            <div id="divForm" class="col-sm-7">
+                <form action="getlogin.php" method="POST">
+                    <div class="form-group">
+                        <label for="">نام کاربری</label>
+                        <input class="form-control" type="text" name="username" required placeholder="نام کاربری">
+                    </div>
+                    <div class="form-group">
+                        <label for="">رمز عبور</label>
+                        <input class="form-control" type="password" name="password" required placeholder="رمز عبور">
+                    </div>
+                    <br>
+                    <button type="submit" class="btn-lg btn-success"> ورود به سایت</button>
+                    <button type="reset" class="btn-lg btn-warning">پاک کردن</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
